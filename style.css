@@ -92,3 +92,20 @@ ul li.checked {
 ul li.checked::before {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/152/305/original/checked.png?1733663376");
 }
+
+ul li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul li span:hover {
+  background: #dcd9d9f5;
+}
